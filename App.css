@@ -1,0 +1,100 @@
+.App {
+  text-align: center;
+}
+.radio,.op{
+  display: flex;
+ display: inline-flex; 
+ flex-direction: row;
+ font-size: 100%;
+ margin-bottom: 1%;
+ 
+ overflow-wrap: wrap;
+ 
+}
+.op{
+  overflow-wrap: wrap;
+  text-overflow: inherit;
+  overflow: wrap;
+  overflow-wrap: break-word;
+}
+.radio{
+  height: 50px;
+}
+
+/* .cQ{
+  text-align: center;
+  margin-left: 20%;
+}
+.op{
+  position:fixed;
+  margin-left: -250px;
+} */
+
+.modal {
+  text-align: center;
+  border: groove #576b92;
+  margin-left: 20%;
+  overflow-wrap: break-word;
+  overflow: wrap;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  padding: 0px;
+  background-color: #576b92;
+  /* min-height: 1vh; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(4px + 2vmin);
+  color: white;
+  margin-bottom: 10px;
+}
+                      
+button{
+  margin: 5px;
+  border:none;
+  width: 20%;
+  height: 30px;
+  border-radius: 40px;
+}
+button:hover{
+  background-color: #576b92;
+  color: aliceblue;
+}
+button:focus{
+  background-color: brown;
+  color: aliceblue;
+  outline: none;
+
+}
+
+.quizModal{
+  background-color: #576b92;
+  color: aliceblue;
+}
+p{
+  display: inline;
+}
+div{
+  width: 90%;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
