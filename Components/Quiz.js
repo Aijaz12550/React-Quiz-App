@@ -42,7 +42,7 @@ inpvalue(){
 
 
 
-    //Quiz
+   
     inp(e){
         
 console.log('inp>>>',e.target.value);
@@ -58,7 +58,6 @@ this.setState({optSelected:e.target.value})
             this.setState({tryAgain:false})
           }
         
-        // let { categories, index,result, catIndex,quiz,sec } = this.state;
             console.log('cat>>>', categories.results);
           
         
