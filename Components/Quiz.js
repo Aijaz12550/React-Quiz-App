@@ -32,7 +32,6 @@ inpvalue(){
         if(optSelected == 3){
                 this.setState({result:result+1})
             }
-            // console.log('inp>>>',e.target.value);
              }
         if(index < 10){
 
