@@ -21,15 +21,7 @@ class Create extends Component{
         }
     }
     
-    // componentDidMount(){
-    //     fetch('https://opentdb.com/api.php?amount=10')
-    // .then(response => response.json())
-    // .then(data => {
-    //   this.setState({categories:data}) // Prints result from `response.json()` in getRequest
-    // })
-    // .catch(error => console.error(error))
-    
-    //   }
+  
 
 
 
